@@ -1,0 +1,104 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 700px;
+}
+
+.heading {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 35px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.intro {
+  background-color: rgb(255, 205, 147);
+  color: #000;
+  padding-left: 16px;
+  padding-bottom: 8px;
+  margin-bottom: 4px;
+}
+
+.data {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 24px;
+}
+
+#address {
+  position: relative;
+  top: -16px;
+  margin-bottom: -16px;
+}
+
+.prof {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.contactinfo {
+  font-size: 15px;
+  padding-left: 16px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  margin-bottom: 6px;
+  background-color: rgb(255, 205, 158);
+}
+
+.subheading {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-weight: bolder;
+  color: coral;
+  text-transform: uppercase;
+}
+
+.icon {
+  color: coral;
+  float: left;
+}
+
+.date {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: slategray;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.skills ul li {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: -10px;
+}
+
+.skills ul li .skill_prog {
+  width: 60%;
+  height: 5px;
+  position: relative;
+}
+
+.skills ul li .skill_prog span {
+  position: absolute;
+  height: 100%;
+  background: coral;
+  padding-right: 50px;
+}
+
+.skill_name {
+  width: 4px;
+}
+
+.skill_per {
+  margin-right: 15px;
+}
+
+img {
+  float: right;
+  position: relative;
+  top: 15px;
+  right: 15px;
+}
+
+.jobtitle {
+  text-decoration: underline;
+}
